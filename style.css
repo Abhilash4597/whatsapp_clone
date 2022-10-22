@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.left_block{
+    width: 400px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 95px;
+    overflow: auto;
+}
+.left_block_heading{
+    width: 380px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f2f5;
+    padding-left: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-right: 1px solid #c0c1c4;
+}
+
+.profile_img {
+    height: 40px;
+    clip-path: circle();
+}
+
+.status_logo {
+    height: 40px;
+    clip-path: circle();
+}
+
+.rightside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message_logo {
+    margin: 0 20px 0 10px;
+}
+
+.menu_logo {
+    padding-right: 30px;
+}
+
+.left_block_sub_heading {
+    height: 45px;
+    width: 399px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 50px;
+    border: 1px solid #dfe4ec;
+}
+
+.for_search_text{
+    background-color: #fff;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.for_search_text input{
+    height: 30px;
+    width: 290px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 25px;
+    background-color: #f0f2f5;
+}
+
+ .search_icon {
+    background-color: #f0f2f5;
+    padding-top: 5.5px;
+    padding-bottom: 8.5px;
+    padding-left: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+ }
+
+.filter_icon {
+    margin: 5px;
+}
+
+.archive_div{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    height: 45px;
+}
+
+.archive_div i{
+    color: rgb(45, 121, 86);
+}
+
+.archive_div p{
+    margin-left: 30px;
+    font-size: 20px;
+}
